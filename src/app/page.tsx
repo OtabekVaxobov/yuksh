@@ -7,7 +7,6 @@ import Qarori  from "../../public/qarori.jpg";
 import Nizomi  from "../../public/nizomi.jpg";
 import Klinik  from "../../public/klinik.jpg";
 import Narxlar  from "../../public/narxlar.jpg";
-import { Pop } from "@/components/theme/Popover";
 import Link from "next/link";
 import { Questions } from "@/components/Questions";
 import { About } from "@/components/About";
