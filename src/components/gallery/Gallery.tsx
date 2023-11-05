@@ -6,6 +6,13 @@ import Y2 from "../../../public/vrach2.jpg";
 import Y3 from "../../../public/vrach3.jpg";
 import Y4 from "../../../public/vrach4.jpg";
 import Y5 from "../../../public/vrach5.jpg";
+import Y6 from "../../../public/vrach6.jpg";
+import Y7 from "../../../public/vrach7.jpg";
+import Y8 from "../../../public/vrach8.jpg";
+import Y9 from "../../../public/vrach9.jpg";
+import Y10 from "../../../public/vrach10.jpg";
+import Y11 from "../../../public/vrach11.jpg";
+import Y12 from "../../../public/vrach12.jpg";
 export default function Gallery() {
     return (
         <>
@@ -170,37 +177,78 @@ export function Gallery3(){
         <>
         <Suspense>
             <h2 id='rahbariyat' className="text-3xl py-8">Rahbariyat</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-4 max-w-[720px]">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-4 max-w-[720px]">
                 <div>
                     <Image className="hover:opacity-75" src={Direktor} alt={""} width={250} height={250}/>
-                    <h3 className=" font-semibold">Sadikova Xanifa Zakirovna</h3>
-                    <p className="text-gray-500">Direktor</p>    
+                    <h3 className=" font-semibold">Tursunov Baxrom Sagdullayevich</h3>
+                    <p className="text-gray-500">Bosh shifokor</p>
+                    <p className="text-gray-500">Qabul vaqti 13:00-16:00</p>    
                 </div>
             
                 <div>
                     <Image className="hover:opacity-75" src={Y1} alt={""} width={250} height={250}/>
-                    <h3 className=" font-semibold">Mirzakulova Matluba Djurabayevna</h3>
-                    <p className="text-gray-500">Davolash ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
+                    <h3 className=" font-semibold">Mamatkulov Qaxramon Sharopboyevich</h3>
+                    <p className="text-gray-500">Gepatolog</p>
+                    <p className="text-gray-500">Qabul vaqti 08:00-14:00</p>
                 </div>
             <div>
                  <Image className="hover:opacity-75" src={Y2} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Abdullayeva Sayyora Karimovna</h3>
-                    <text>Neonatalogiya ishlari bo&apos;yicha<br/> direktor o&apos;rinbosari</text>
+                 <h3 className=" font-semibold">Boyoturayev Sherzod</h3>
+                    <text><br/></text>
             </div>
              <div>
                  <Image className="hover:opacity-75" src={Y3} alt={""} width={250} height={250}/>
-                  <h3 className=" font-semibold">Babayeva Sayyora Xaldarovna</h3>
-                    <p className="text-gray-500">Reproduktiv salomatlik va yordamchi<br/> reaproduktiv texnologiyalar<br/> bo&apos;yicha direktor o&apos;rinbosari</p>
+                  <h3 className=" font-semibold">Xomidov Faxriddin</h3>
+                    <p className="text-gray-500"></p>
             </div>
              <div>
                 <Image className="hover:opacity-75" src={Y4} alt={""} width={225} height={225}/>
-                 <h3 className=" font-semibold">Alimbabayeva Gulnoza Abdubakiyevna</h3>
-                    <p className="text-gray-500">Ona va bola skrinigi masalalari bo&apos;yicha direktor o&apos;rinbosari</p>
+                 <h3 className=" font-semibold">Asrorkulov Umedjon</h3>
+                    <p className="text-gray-500"></p>
             </div>
              <div>
                 <Image className="hover:opacity-75" src={Y5} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Tursinmurodov Dilshod Raxmonqulovich</h3>
-                    <p className="text-gray-500">Xo&apos;jalik ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
+                 <h3 className=" font-semibold">Salomatova Sanobar Shodmonovna</h3>
+                    <p className="text-gray-500"></p>
+            </div>
+            <div>
+                <Image className="hover:opacity-75" src={Y6} alt={""} width={250} height={250}/>
+                 <h3 className=" font-semibold">Mamatkulov Safarali Ashirkulovich</h3>
+                    <p className="text-gray-500"></p>
+            </div>
+           
+           <div>
+                <Image className="hover:opacity-75" src={Y7} alt={""} width={250} height={250}/>
+                 <h3 className=" font-semibold">Allanazaro Sayfulla Suyarkulovich</h3>
+                    <p className="text-gray-500"></p>
+            </div>
+           
+           <div>
+                <Image className="hover:opacity-75" src={Y8} alt={""} width={250} height={250}/>
+                 <h3 className=" font-semibold">Jurayeva Manzura Nabiyevna</h3>
+                    <p className="text-gray-500"></p>
+            </div>
+            <div>
+                <Image className="hover:opacity-75" src={Y9} alt={""} width={250} height={250}/>
+                 <h3 className=" font-semibold">Achildiyev Abduvali Soibnazarovich</h3>
+                    <p className="text-gray-500"></p>
+            </div>
+            <div>
+                <Image className="hover:opacity-75" src={Y10} alt={""} width={250} height={250}/>
+                 <h3 className=" font-semibold">Berdiyev Muxammad koraboyevich</h3>
+                    <p className="text-gray-500"></p>
+            </div>
+            <div>
+                <Image className="hover:opacity-75" src={Y11} alt={""} width={250} height={250}/>
+                 <h3 className=" font-semibold">Shavkat jurayev Kurbonovich
+</h3>
+                    <p className="text-gray-500">pediatr infeksionist</p>
+                    <p className="text-gray-500">Qabul vaqti 14:00-16:00</p>  
+            </div>
+           <div>
+                <Image className="hover:opacity-75" src={Y12} alt={""} width={250} height={250}/>
+                 <h3 className=" font-semibold">Mirzayeva Maxbuba Chuliboyevna</h3>
+                    <p className="text-gray-500"></p>
             </div>
            
            

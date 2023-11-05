@@ -9,7 +9,7 @@ import {
 export function Questions() {
     return(
         <div className="flex flex-col justify-center pt-8">
-        <p>Kop beriladigan savollar</p>
+        <p className="flex justify-center">Kop beriladigan savollar</p>
         <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
              <AccordionTrigger>Infeksiyani yuqtirimaslik uchun nima qilish zarur?</AccordionTrigger>

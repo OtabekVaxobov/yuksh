@@ -21,14 +21,33 @@ export default function Home() {
         height={0}
         src={bg}
         alt="background_picture"/>
-          <div className="flex flex-col w-full bg-blue-600 p-4 py-10 sm:px-20 sm:flex-row justify-between items-center">
+          <div className="flex flex-col w-full bg-gradient-to-r from-red-400  to-blue-600 p-4 py-20 sm:px-20 sm:flex-row justify-between items-center">
                     <p className=" text-white"> 
                     <span className="text-4xl font-medium">Biz bilan bog&apos;lanmoqchimisiz?</span>
                      <br/> 
                      <span className="text-lg">Hoziroq bog&apos;laning ! </span>
                      </p>
-                    <p className="font-medium text-slate-700  dark:text-white  hover:bg-slate-700 duration-150"><Pop/></p>
-                </div>
+                    <div className="font-medium  pt-4  dark:text-white">
+                      
+          
+          
+            <div className=" text-white grid gap-4">
+              <h4 className="font-medium leading-none">Tezkor aloqa xizmati</h4>
+            <p className="text-white text-sm text-muted-foreground">
+              67-310-41-54
+            </p>
+            </div>
+            <div className="text-white grid gap-4">
+              <h4 className="font-medium  pt-4 leading-none"> Qabulxona </h4>
+            <p className=" text-white text-sm text-muted-foreground">
+             67-310-41-53
+            </p>
+            </div>
+           
+          </div>
+        </div>
+                    
+               
       <main className="flex min-h-screen flex-col items-center justify-between sm:p-24">
         <Carusel/>
         <About/>
